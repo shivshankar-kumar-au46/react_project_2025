@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.resetBtn{
+    color:rgb(17, 0, 255);
+    
+
+}
+
+.resetBtn::after{
+    content: "reset";
+    position: absolute;
+    top: -17px;
+    left: -5px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+
+}
+
+.resetBtn:hover::after{
+    opacity: 1;
+}
