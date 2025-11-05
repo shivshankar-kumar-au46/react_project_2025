@@ -1,11 +1,11 @@
 import './App.css'
-import Card from './components/card'
+import PasswordGenerator from './components/PasswordGenerator'
 
 function App() {
 
   return (
     <>
-    <Card title="The Great Mountain" details="This is wonderfull card" btnText="visit me"/>
+    <PasswordGenerator/>
     </>
   )
 }
